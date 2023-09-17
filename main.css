@@ -7,6 +7,7 @@
     height: 100vh;
     background-color: #f9f9f9;
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 .products-con{
     display: flex;
@@ -134,4 +135,180 @@
     left: 260px;
     top: -40px;
     cursor: pointer;
+}
+.GoToBasket{
+    position: absolute;
+    left: 85%;
+    top: 5%;
+}
+.GoToBasket button{
+    padding: 10px;
+    background-color: blue;
+    border:1px solid #0084ff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.GoToBasket button:hover{
+    padding: 10px;
+    background-color: #0404a3;
+    border:1px solid hwb(209 33% 27%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.GoToBasket a{
+    text-decoration: none;
+    color: white;
+}
+.containerbs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.basket{
+    height: 400px;
+    width: 1300px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+.bs-right{
+    width: 300px;
+    height: 260px;
+    background-color: rgb(236, 235, 235);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.bs-left {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.status{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.orderContentHeader{
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #8bb4b6;
+    display: flex;
+    align-items: center;
+    gap: 58px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+.orderContentBody{
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #8bb4b6;
+    display: flex;
+    align-items: center;
+    gap: 144px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.orderContentBodycash{
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #8bb4b6;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footerspan{
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 84px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nextpg a{
+    padding: 10px;
+    padding-left: 110px;
+    padding-right: 110px;
+    background-color: hwb(216 1% 36%);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;    
+}
+.nextpg a:hover{
+    padding: 10px;
+    padding-left: 110px;
+    padding-right: 110px;
+    background-color: rgb(2, 47, 113);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;    
+}
+.nextpg{
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.basket-cart-item{
+    display: flex;
+    width: 996px;
+    gap: 100px;
+    border-bottom:1px solid #4a5c8b;
+    padding: 8px;
+}
+.bs-ct-left{
+    display: flex;
+    position: relative;
+}
+.bs-ct-left img{
+    height: 74px;
+    width: 74px;
+}
+.product-info{
+    font-size: 17px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.bs-ct-mid{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.item-numb{
+    border: 1px solid black;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+}
+.bs-ct-mid button{
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+}
+.bs-ct-right{
+    display: flex;
+}
+.bs-ct-right img{
+     height: 20px;
+     width: 20px;
+}
+.bcr-inf{
+    width: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bcr-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
