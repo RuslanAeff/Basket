@@ -45,7 +45,7 @@
     font-size: 10px; 
     color: white
 }
-.product-name{
+.item-name{
     margin: 14px;
     font-size: 18px;
     font-weight: 900;
@@ -250,8 +250,9 @@
     text-decoration: none;    
 }
 .nextpg{
-    margin-top: 15px;
-    margin-left: 12px;
+    margin-top: 20px;
+    margin-left: 17px;
+    margin-right: 20px;
 }
 .basket-cart-item{
     display: flex;
